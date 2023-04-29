@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Terreneitor</title>
+  <link rel="stylesheet" href="estilos.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+  
+
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#productos">Productos <i class="bi bi-bag"></i></a></li>
+        <li><a href="#">Carrito <i class="bi bi-cart"></i></a></li>
+        <li><a href="#informacion">Nosotros <i class="bi bi-chat-right"></i></a></li>
+      </ul>
+      <div class="logo">
+        <a href="#">Terreneitor</a>
+      </div>
+      
+    </nav>
+  </header>
+  <script src="script.js"></script>
+
+  <main>
+    <section id="productos">
+       
+      <div  id="filtrocontainer" class="containerproductos">
+      
+    <section id="productos">
+      <div id="filtrocontainer" class="containerproductos">
+        <div class="producto">
+          <img src="imagenes/terreneitor1.png" alt="Producto 1 terreneitor color verde en caja" width="300px" />
+          <h3>terreneitor color verde en caja</h3>
+          <p>Precio: 250.000</p>
+          <button class="comprarcarro" onclick="addToCart('Terreneitor 1', 250000)">Comprar</button>
+        </div>
+        <div class="producto">
+          <img src="imagenes/terreneitor2.png" alt="Producto 1 terreneitor color verde en caja" width="300px" />
+          <h3>terreneitor color verde en caja</h3>
+          <p>Precio: 250.000</p>
+          <button class="comprarcarro" onclick="addToCart('Terreneitor 2', 250000)">Comprar</button>
+        </div>
+        <div class="producto">
+          <img src="imagenes/terreneitor3.png" alt="Producto 1 terreneitor color verde en caja" width="300px" />
+          <h3>terreneitor color verde en caja</h3>
+          <p>Precio: 350.000</p>
+          <button class="comprarcarro" onclick="addToCart('Terreneitor 3', 350000)">Comprar</button>
+        </div>
+        <div class="producto">
+          <img src="imagenes/terreneitor4.png" alt="Producto 1 terreneitor color verde en caja" width="300px" />
+          <h3>terreneitor color verde en caja</h3>
+          <p>Precio: 350.000</p>
+          <button class="comprarcarro" onclick="addToCart('Terreneitor 4', 350000)">Comprar</button>
+        </div>
+        <div class="producto">
+          <img src="imagenes/terreneitor5.png" alt="Producto 1 terreneitor color verde en caja" width="300px" />
+          <h3>terreneitor color verde en caja</h3>
+          <p>Precio: 250.000</p>
+          <button class="comprarcarro" onclick="addToCart('Terreneitor 5', 250000)">Comprar</button>
+        </div>
+        <div class="producto">
+          <img src="imagenes/terreneirtor6.png" alt="Producto 1 terreneitor color verde en caja" width="300px" />
+          <h3>terreneitor color verde en caja</h3>
+          <p>Precio: 250.000</p>
+          <button class="comprarcarro" onclick="addToCart('Terreneitor 6', 250000)">Comprar</button>
+        </div>
+      </div>
+    </section>
+    
+  <section id="carrito">
+  <h2>Carrito de compras</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Producto</th>
+        <th>Precio</th>
+        <th>Cantidad</th>
+        <th>Subtotal</th>
+      </tr>
+    </thead>
+    <tbody>
+    </tbody>
+    <tfoot>
+      <tr>
+        <td colspan="3">Total:</td>
+        <td id="total">$0</td>
+      </tr>
+    </tfoot>
+  </table>
+  <button id="vaciar-carrito">Vaciar carrito</button>
+  <button id="finalizar-compra" >Finalizar compra</button>
+</section>
+
+
+
+    <section id="informacion">
+      <div>
+        
+        <div id="blur" class="filtro">
+          
+          <p class="pejor"  >
+            <strong>¿Por que es el mejor?</strong> <br>El Terrenator es un carro a control remoto resistente y duradero,
+            diseñado para los amantes de los vehículos todoterreno y la
+            tecnología. Con un alcance de hasta 100 metros, puede ser controlado
+            desde una distancia considerable y su potente motor le permite
+            alcanzar velocidades de hasta 30 km/h en terrenos complejos. Además,
+            su facilidad de uso y batería recargable lo hacen ideal para sesiones
+            de uso continuo de hasta 30 minutos. En resumen, el Terrenator es una
+            excelente opción para quienes buscan un carro a control remoto de alta
+            calidad y rendimiento.
+          </p>
+          <div>
+            <img class="videofinal" src="Imagenes/TerrenetorAcercaDegif.gif" alt="terreneitorgif" width="400">
+  
+          </div>
+        </div>
+
+
+        <video autoplay muted loop id="bg-video">
+          <source src="Imagenes/Terranator1080.mp4" type="video/mp4">
+        </video>
+
+
+
+        
+
+
+
+
+
+
+      </div>
+
+
+    </section>
+
+</body>
+
+</html>
